@@ -1,8 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+    color: #333;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .container {
@@ -29,6 +31,7 @@ h1, h2 {
 .system-info table {
     width: 100%;
     border-collapse: collapse;
+    margin: auto;
 }
 
 .system-info td {
@@ -49,15 +52,37 @@ canvas {
     height: 400px;
 }
 
-
-body.dark-mode {
+/* ✅ Dark Mode Styling */
+.dark-mode {
     background-color: #1e1e1e;
     color: white;
 }
-.dark-mode .system-info {
+
+.dark-mode .container {
     background: #333;
     color: white;
 }
+
+.dark-mode .system-info {
+    background: #444;
+}
+
 .dark-mode .chart-container {
     background: #222;
+}
+
+/* ✅ Button Styling */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
