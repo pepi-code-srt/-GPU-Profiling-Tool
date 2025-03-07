@@ -1,8 +1,10 @@
 # GPU Profiling Tool - Installation & Usage Guide
 
 
-**Note : this for Works on **Windows 11** with **NVIDIA GPUs** **
-## **📌 Overview**
+Note : this for Works on Windows 11 with NVIDIA GPUs
+
+
+📌 Overview
 This project is a **GPU Profiling Tool** designed for real-time monitoring and performance analysis of NVIDIA GPUs. It uses **Vulkan, OpenCL, CUDA, and Flask** to fetch and visualize GPU metrics.
 
 ### **🔹 Features:**
