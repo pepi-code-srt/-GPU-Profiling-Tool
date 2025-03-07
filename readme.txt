@@ -1,7 +1,7 @@
 # GPU Profiling Tool - Installation & Usage Guide
 
 
-Note : this for Works on Windows 11 with NVIDIA GPUs
+Note : this Works on only  Windows 11 with NVIDIA GPUs
 
 
 📌 Overview
